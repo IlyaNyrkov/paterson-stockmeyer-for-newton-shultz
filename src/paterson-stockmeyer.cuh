@@ -5,6 +5,8 @@
 #include <iostream>
 #include <cmath>
 #include <algorithm>
+#include <vector>
+#include <cstdint>
 
 #define CHECK_CUDA(call) { \
     cudaError_t err = call; \
